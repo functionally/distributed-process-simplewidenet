@@ -1,4 +1,4 @@
-module Control.Distributed.Process.Backend.Simplewidenet (
+module Control.Distributed.Process.Backend.SimpleWidenet (
   L.Backend(..)
 , initializeBackend
 , L.startSlave
