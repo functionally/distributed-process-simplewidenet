@@ -1,5 +1,5 @@
 name:                distributed-process-simplewidenet
-version:             0.1.12.1
+version:             0.1.13.0
 -- synopsis:            
 -- description:         
 homepage:            https://github.nrel.gov/stats/sdsv/sw/distributed-process-simplewidenet
@@ -15,7 +15,7 @@ cabal-version:       >=1.10
 
 library
   exposed-modules:     Control.Distributed.Process.Backend.SimpleWidenet
-  build-depends:       base >=4.6 && <4.7
+  build-depends:       base >= 4.6 && < 5
                ,       bytestring
                ,       distributed-process
                ,       distributed-process-simplelocalnet
